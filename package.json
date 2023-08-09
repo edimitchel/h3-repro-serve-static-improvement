@@ -1,0 +1,17 @@
+{
+  "name": "h3-playground",
+  "private": true,
+  "scripts": {
+    "start": "listhen ./app.ts",
+    "dev": "listhen -w ./app.ts"
+  },
+  "dependencies": {
+    "consola": "^3.2.3",
+    "h3": "1.8.0-rc.3",
+    "listhen": "../listhen",
+    "serve-static": "^1.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.8"
+  }
+}
